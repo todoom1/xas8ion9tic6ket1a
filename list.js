@@ -41,5 +41,6 @@ document.getElementById("9").innerHTML="Top1体育";
 
 document.getElementById("11").innerHTML="胜天国际";
 
-document.getElementById("57").innerHTML="PG777.MY";
+document.getElementById("57").innerHTML="xa77.MY";
+
 
