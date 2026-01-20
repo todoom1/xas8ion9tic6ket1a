@@ -1,17 +1,26 @@
-document.getElementById("qps").addEventListener("click", function() {
-  window.location.href = "https://hywkj.top/?channel=77777711";
+document.getElementById("cf").addEventListener("click", function() {
+  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=4905796";
 });
 document.getElementById("ff").addEventListener("click", function() {
   window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=1551767873639698&selfPlanId=3790275";
 });
-document.getElementById("pyq").addEventListener("click", function() {
-  window.location.href = "http://yhfkj.top/?channel=77777711";
+document.getElementById("yh").addEventListener("click", function() {
+  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=800&pt=A7235B63-B5E3-6E3F-9D59-933D2670F015";
 });
-document.getElementById("ltf").addEventListener("click", function() {
-  window.location.href = "https://www.ksxkj.top?p=9310267&n=11350227&y=77777711&j=112424&a=1";
+document.getElementById("ngty").addEventListener("click", function() {
+  window.location.href = "https://nvjmce.hfjcl.com/app/register.php?site_id=1019&topId=13778887";
 });
-document.getElementById("g66").addEventListener("click", function() {
-  window.location.href = "https://04cd7.fystea.com/d2BraX3Hiw";
+document.getElementById("xsd").addEventListener("click", function() {
+  window.location.href = "https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=936629&selfPlanId=802288";
+});
+document.getElementById("wd").addEventListener("click", function() {
+  window.location.href = "https://onkrcy.fnbpsw.com/app/register.php?site_id=1020&topId=35955579";
+});
+document.getElementById("df").addEventListener("click", function() {
+  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=1030&topId=7484241";
+});
+document.getElementById("sj").addEventListener("click", function() {
+  window.location.href = "https://xjvueb.hefaship.com/app/register.php?site_id=1010&topId=3113235";
 });
 document.getElementById("zt").addEventListener("click", function() {
   window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=34033";
@@ -25,21 +34,27 @@ document.getElementById("st").addEventListener("click", function() {
 
 document.getElementById("0").innerHTML="🔥十年信誉平台推荐";
 
-document.getElementById("1").innerHTML="朋友圈";
+document.getElementById("cfn").innerHTML="超凡国际";
 
-document.getElementById("2").innerHTML="棋牌室";
+document.getElementById("xsdn").innerHTML="新时代";
 
-document.getElementById("3").innerHTML="G66";
+document.getElementById("sjn").innerHTML="赏金国际";
 
-document.getElementById("4").innerHTML="乐太坊";
+document.getElementById("wdn").innerHTML="问鼎娱乐";
 
-document.getElementById("5").innerHTML="征途国际";
+document.getElementById("dfn").innerHTML="巅峰国际";
 
-document.getElementById("6").innerHTML="非凡娱乐";
+document.getElementById("yhn").innerHTML="一号娱乐";
 
-document.getElementById("9").innerHTML="Top1体育";
+document.getElementById("ngtyn").innerHTML="NG体育";
 
-document.getElementById("11").innerHTML="胜天国际";
+document.getElementById("ztn").innerHTML="征途国际";
+
+document.getElementById("ffn").innerHTML="非凡娱乐";
+
+document.getElementById("t1n").innerHTML="Top1体育";
+
+document.getElementById("stn").innerHTML="胜天国际";
 
 document.getElementById("57").innerHTML="xa77.MY";
 
