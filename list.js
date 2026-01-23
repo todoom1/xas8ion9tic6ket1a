@@ -1,61 +1,62 @@
+var stz = "aHR0cHM6Ly9sZWp2YS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU4JnRvcElkPTk0MTcwMyZzZWxmUGxhbklkPTgyODczOQ==";
+var cfz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTQ5MDU3OTY=";
+var yhz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9QTcyMzVCNjMtQjVFMy02RTNGLTlENTktOTMzRDI2NzBGMDE1";
+var ngtyz = "aHR0cHM6Ly9udmptY2UuaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDE5JnRvcElkPTEzNzc4ODg3";
+var xsdz = "aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD05MzY2Mjkmc2VsZlBsYW5JZD04MDIyODg=";
+var wdz = "aHR0cHM6Ly9vbmtyY3kuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAyMCZ0b3BJZD0zNTk1NTU3OQ==";
+var dfz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMwJnRvcElkPTc0ODQyNDE=";
+var ffz = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTE1NTE3Njc4NzM2Mzk2OTgmc2VsZlBsYW5JZD0zNzkwMjc1";
+var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMz";
+var t1z = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ==";
+var sjz = "aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU=";
+
+var stx = atob(stz);
+var cfx = atob(cfz);
+var yhx = atob(yhz);
+var ngtyx = atob(ngtyz);
+var xsdx = atob(xsdz);
+var wdx = atob(wdz);
+var dfx = atob(dfz);
+var ffx = atob(ffz);
+var ztx = atob(ztz);
+var t1x = atob(t1z);
+var sjx = atob(sjz);
 document.getElementById("cf").addEventListener("click", function() {
-  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=4905796";
+  window.open(cfx, '_blank');
 });
 document.getElementById("ff").addEventListener("click", function() {
-  window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=1551767873639698&selfPlanId=3790275";
+  window.open(ffx, '_blank');
 });
 document.getElementById("yh").addEventListener("click", function() {
-  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=800&pt=A7235B63-B5E3-6E3F-9D59-933D2670F015";
+  window.open(yhx, '_blank');
 });
 document.getElementById("ngty").addEventListener("click", function() {
-  window.location.href = "https://nvjmce.hfjcl.com/app/register.php?site_id=1019&topId=13778887";
+  window.open(ngtyx, '_blank');
 });
 document.getElementById("xsd").addEventListener("click", function() {
-  window.location.href = "https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=936629&selfPlanId=802288";
+  window.open(xsdx, '_blank');
 });
 document.getElementById("wd").addEventListener("click", function() {
-  window.location.href = "https://onkrcy.fnbpsw.com/app/register.php?site_id=1020&topId=35955579";
+  window.open(wdx, '_blank');
 });
 document.getElementById("df").addEventListener("click", function() {
-  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=1030&topId=7484241";
+  window.open(dfx, '_blank');
 });
 document.getElementById("sj").addEventListener("click", function() {
-  window.location.href = "https://xjvueb.hefaship.com/app/register.php?site_id=1010&topId=3113235";
+  window.open(sjx, '_blank');
 });
 document.getElementById("zt").addEventListener("click", function() {
-  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=34033";
+  window.open(ztx, '_blank');
 });
 document.getElementById("t1").addEventListener("click", function() {
-  window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1051&topId=527419";
+  window.open(t1x, '_blank');
 });
 document.getElementById("st").addEventListener("click", function() {
-  window.location.href = "https://lejva.tprsmi.com/app/register.php?site_id=1058&topId=941703&selfPlanId=828739";
+  window.open(stx, '_blank');
 });
 
-document.getElementById("0").innerHTML="🔥十年信誉平台推荐";
+['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"100P111l99Y117c109v101V110J116W46m103F101a116q69U108i101v109P101V110B116i66c121f73f100b40h34O50F34m41F46i105F110u110c101U114J72P84E77r76D61U34Q55357Q56613b21313d24180Z20449e35465N24179x21488x25512V33616X34k59z10Z10B100I111o99G117i109H101R110l116D46q103O101F116d69O108I101P109p101E110a116u66C121Z73Q100y40u34v99r102d110U34w41n46D105G110i110e101c114O72I84R77B76h61M34J36229M20961Y22269I38469t34y59l10w10j100C111N99a117k109a101y110N116i46P103u101B116t69k108b101V109K101z110h116p66R121g73G100o40o34H120n115s100G110h34E41A46U105I110n110C101E114W72G84k77b76J61l34K26032U26102c20195z34v59d10s10r100f111b99j117K109a101T110T116B46u103Q101a116l69p108T101H109T101v110U116X66l121w73Z100B40s34E115h106V110I34g41P46e105U110z110b101p114r72D84P77j76D61C34Q36175B37329t22269x38469w34x59f10F10P100i111j99C117D109f101m110i116U46x103H101z116l69J108b101Q109R101e110i116q66Z121z73F100G40h34K119S100S110g34m41J46q105b110m110u101c114o72k84z77C76k61r34V38382c40718S23089r20048D34j59f10m10d100M111K99C117E109L101O110Y116B46P103G101o116M69j108a101E109p101z110N116u66R121S73Q100W40R34P100Q102n110n34c41d46U105p110O110f101u114k72A84P77M76j61r34n24005E23792f22269t38469M34t59N10I10S100Q111H99r117v109g101T110y116p46d103L101u116f69U108n101v109Y101G110X116H66p121D73j100z40u34J121Z104c110c34g41S46K105t110R110L101c114E72i84D77Q76b61h34M19968b21495u23089V20048x34D59s10d10d100E111R99V117F109k101t110u116L46X103m101l116S69N108k101g109S101w110s116m66U121q73O100f40v34B110o103N116h121Q110O34h41O46p105B110m110B101i114j72M84q77r76m61h34k78b71X20307o32946m34c59I10V10i100p111j99h117l109o101H110P116f46D103Y101R116u69m108L101R109N101a110U116m66h121U73k100x40X34i122w116r110r34e41b46x105M110Y110T101h114y72S84D77L76I61p34g24449y36884Q22269D38469e34a59J10q10m100f111W99a117E109K101s110m116J46q103F101x116m69z108h101k109e101K110H116Y66V121u73v100c40u34e102j102p110w34V41v46W105I110N110n101V114e72I84v77W76B61G34i38750P20961P23089y20048Y34E59n10n10l100j111B99J117v109U101R110Q116W46X103Y101H116L69q108B101y109R101F110l116y66f121l73R100g40w34q116f49a110v34V41J46w105D110n110l101V114K72P84j77D76u61q34k84w111h112s49R20307w32946b34m59o10v10H100X111n99i117y109p101w110n116K46s103x101d116g69k108i101y109x101Q110D116i66H121g73p100q40I34W115s116I110B34G41t46x105y110k110z101F114E72S84Z77R76M61G34n32988C22825P22269N38469H34K59"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
 
-document.getElementById("cfn").innerHTML="超凡国际";
-
-document.getElementById("xsdn").innerHTML="新时代";
-
-document.getElementById("sjn").innerHTML="赏金国际";
-
-document.getElementById("wdn").innerHTML="问鼎娱乐";
-
-document.getElementById("dfn").innerHTML="巅峰国际";
-
-document.getElementById("yhn").innerHTML="一号娱乐";
-
-document.getElementById("ngtyn").innerHTML="NG体育";
-
-document.getElementById("ztn").innerHTML="征途国际";
-
-document.getElementById("ffn").innerHTML="非凡娱乐";
-
-document.getElementById("t1n").innerHTML="Top1体育";
-
-document.getElementById("stn").innerHTML="胜天国际";
-
-document.getElementById("57").innerHTML="xa77.MY";
+document.getElementById("1").innerHTML="xa77.MY";
 
 
