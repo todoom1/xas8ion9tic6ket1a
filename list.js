@@ -75,7 +75,7 @@ document.getElementById("bsj").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wbGQ9MTQ2NzA4MA=="), '_blank');
 });
 document.getElementById("xy").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwLy5yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU3JnRvcGxkPTQzNTE3NzEwNzAwMjM3NzY="), '_blank');
+  window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=="), '_blank');
 });
 document.getElementById("c7").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0QN"), '_blank');
@@ -114,5 +114,6 @@ currentIndex = (currentIndex + 1) % texts.length;
 } else if (year === 2026 && month === 3 && date === 3) {
     alert("🎇祝您元宵节快乐！🎇");
 }
+
 
 
