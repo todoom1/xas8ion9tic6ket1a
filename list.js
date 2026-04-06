@@ -10,7 +10,7 @@ var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xM
 var t1z = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ==";
 var sjz = "aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU=";
 var jlx = atob("aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNjMmcHQ9QzQxNzdFMDYtM0JGOS1CM0MwLUE0NkEtQkEyMDM0MzY0MzlC");
-//https://tz.wxgjr5.cc/app/register.php?site_id=2304&topId=1206285,https://wx.gtlysc.com/app/register.php?site_id=134523275&topId=398933
+
 
 var stx = atob(stz);
 var cfx = atob(cfz);
@@ -60,7 +60,7 @@ document.getElementById("jl").addEventListener("click", function() {
   window.open(jlx, '_blank');
 });
 document.getElementById("gjr").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly90ei53eC11bHNseWQxMi5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTY3MDIwNg=="), '_blank');
+  window.open(atob("aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTIwNjI4NQ"), '_blank');
 });
 document.getElementById("yw28").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxNyZ0b3BsZD02ODUxNzcxMDgwMzY4Nzgw"), '_blank');
@@ -72,7 +72,7 @@ document.getElementById("28q").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly8xNDkuMzAuMjEwLjE0NDozNTM4NC8jL2xpbms/YWxsd2luPTlpdmRJczE1MDcxMjEx"), '_blank');
 });
 document.getElementById("bsj").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTQ2NzA4MA=="), '_blank');
+  window.open(atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9Mzk4OTMz"), '_blank');
 });
 document.getElementById("xy").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=="), '_blank');
