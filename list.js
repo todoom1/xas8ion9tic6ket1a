@@ -60,7 +60,7 @@ document.getElementById("dt").addEventListener("click", function() {
   window.open(dtx, '_blank');
 });
 document.getElementById("gjr").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTY3MDIwNg=="), '_blank');
+  window.open(atob("aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTc3NDEwNQ=="), '_blank');
 });
 document.getElementById("yw28").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxNyZ0b3BsZD02ODUxNzcxMDgwMzY4Nzgw"), '_blank');
@@ -69,10 +69,10 @@ document.getElementById("wc28").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly9pemN2b2ouaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEyJnRvcGxkPTYxNjE3NzEwODAxNDAxNjc="), '_blank');
 });
 document.getElementById("jl").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly8xNDkuMzAuMjEwLjE0NDozNTM4NC8jL2xpbms/YWxsd2luPTlpdmRJczE1MDcxMjEx"), '_blank');
+  window.open(atob("aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MjMyMTEmc2VsZlBsYW5JZD04NDU="), '_blank');
 });
 document.getElementById("bsj").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTQ2NzA4MA=="), '_blank');
+  window.open(atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTU5NTY3NA=="), '_blank');
 });
 document.getElementById("xy").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=="), '_blank');
