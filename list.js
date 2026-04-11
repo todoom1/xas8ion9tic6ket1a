@@ -67,7 +67,7 @@ document.getElementById("xy").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=="), '_blank');
 });
 document.getElementById("c7").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly8zOC4xODEuMjMuMjU6NjAwMDUvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q="), '_blank');
+  window.open(atob("aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q="), '_blank');
 });
 document.getElementById("ng").addEventListener("click", function() {
   window.open(atob("aHR0cHM6Ly8zOC4xODEuMjMuMTg6NjAwMDQvIy9saW5rP2FsbHdpbj0xMTA0MjcwMA0="), '_blank');
