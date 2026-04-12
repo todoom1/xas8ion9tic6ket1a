@@ -85,3 +85,5 @@ document.getElementById("ngn").innerHTML="NG国际";
 document.getElementById("c7n").innerHTML="C7";
 
 document.getElementById("1").innerHTML="XA77.MY";
+//aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTQ2NzA4MA==
+//aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTY3MDIwNg==
