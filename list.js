@@ -1,95 +1,75 @@
-var stz = "aHR0cHM6Ly9sZWp2YS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU4JnRvcElkPTk0MTcwMyZzZWxmUGxhbklkPTgyODczOQ==";
-var cfz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTQ5MDU3OTY=";
-var yhz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9QTcyMzVCNjMtQjVFMy02RTNGLTlENTktOTMzRDI2NzBGMDE1";
-var ngtyz = "aHR0cHM6Ly9udmptY2UuaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDE5JnRvcElkPTEzNzc4ODg3";
-var xsdz = "aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD05MzY2Mjkmc2VsZlBsYW5JZD04MDIyODg=";
-var wdz = "aHR0cHM6Ly9vbmtyY3kuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAyMCZ0b3BJZD0zNTk1NTU3OQ==";
-var dfz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMwJnRvcElkPTc0ODQyNDE=";
-var ffz = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTE1NTE3Njc4NzM2Mzk2OTgmc2VsZlBsYW5JZD0zNzkwMjc1";
-var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMz";
-var t1z = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ==";
-var sjz = "aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU=";
+(function() {
+    var secretApps = [
+{img: './png/hygj.jpg', name: '汇赢国际', xurl: 'aHR0cHM6Ly9uY2djYS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDYyJnRvcElkPTEzNzMzJnNlbGZQbGFuSWQ9MTEzNw=='},
+{img: './png/stgj.jpg', name: '胜天国际', xurl: 'aHR0cHM6Ly9sZWp2YS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU4JnRvcElkPTk0MTcwMyZzZWxmUGxhbklkPTgyODczOQ=='},
+{img: './png/cfgj.png', name: '超凡国际', xurl: 'aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTQ5MDU3OTY='},
+{img: './png/yh.png', name: '一号娱乐', xurl: 'aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9QTcyMzVCNjMtQjVFMy02RTNGLTlENTktOTMzRDI2NzBGMDE1'},
+{img: './svg/ngty.svg', name: 'NG体育', xurl: 'aHR0cHM6Ly9udmptY2UuaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDE5JnRvcElkPTEzNzc4ODg3'},
+{img: './png/ltf.jpg', name: '新时代', xurl: 'aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD05MzY2Mjkmc2VsZlBsYW5JZD04MDIyODg='},
+{img: './svg/wd.svg', name: '问鼎娱乐', xurl: 'aHR0cHM6Ly9vbmtyY3kuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAyMCZ0b3BJZD0zNTk1NTU3OQ=='},
+{img: './png/dfgj.png', name: '巅峰国际', xurl: 'aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMwJnRvcElkPTc0ODQyNDE='},
+{img: './png/ffyl.png', name: '非凡娱乐', xurl: 'aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTE1NTE3Njc4NzM2Mzk2OTgmc2VsZlBsYW5JZD0zNzkwMjc1'},
+{img: './png/bsj.jpg', name: '保时捷', xurl: 'aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTQ2NzA4MA=='},
+{img: './png/gjr.jpg', name: '国际人', xurl: 'aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTY3MDIwNg=='},
+{img: './png/ztgj.png', name: '征途国际', xurl: 'aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMz'},
+{img: './png/top1.png', name: 'Top1体育', xurl: 'aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ=='},
+{img: './png/sjgj.png', name: '赏金国际', xurl: 'aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU='},
+{img: './png/yw28.jpg', name: '亿万28', xurl: 'aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxNyZ0b3BsZD02ODUxNzcxMDgwMzY4Nzgw'},
+{img: './png/wc28.jpg', name: '旺财28', xurl: 'aHR0cHM6Ly9pemN2b2ouaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEyJnRvcGxkPTYxNjE3NzEwODAxNDAxNjc='},
+{img: './png/jlgj.jpg', name: '君临国际', xurl: 'aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MjMyMTEmc2VsZlBsYW5JZD04NDU='},
+{img: './png/xygj.jpg', name: '星耀国际', xurl: 'aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=='},
+{img: './png/ng.png', name: 'NG国际', xurl: 'aHR0cHM6Ly8xMDMuNTQuNjAuMjI6ODg2Ni8jL2xpbms/YWxsd2luPWh4emM4Zm5sWmNFJTJCZ1RVcjBCUU13QSUzRCUzRA=='},
+{img: './png/c7.png', name: 'C7', xurl: 'aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q='}
+    ];
 
-var stx = atob(stz);
-var cfx = atob(cfz);
-var yhx = atob(yhz);
-var ngtyx = atob(ngtyz);
-var xsdx = atob(xsdz);
-var wdx = atob(wdz);
-var dfx = atob(dfz);
-var ffx = atob(ffz);
-var ztx = atob(ztz);
-var t1x = atob(t1z);
-var sjx = atob(sjz);
-document.getElementById("cf").addEventListener("click", function() {
-  window.open(cfx, '_blank');
-});
-document.getElementById("ff").addEventListener("click", function() {
-  window.open(ffx, '_blank');
-});
-document.getElementById("yh").addEventListener("click", function() {
-  window.open(yhx, '_blank');
-});
-document.getElementById("ngty").addEventListener("click", function() {
-  window.open(ngtyx, '_blank');
-});
-document.getElementById("xsd").addEventListener("click", function() {
-  window.open(xsdx, '_blank');
-});
-document.getElementById("wd").addEventListener("click", function() {
-  window.open(wdx, '_blank');
-});
-document.getElementById("df").addEventListener("click", function() {
-  window.open(dfx, '_blank');
-});
-document.getElementById("sj").addEventListener("click", function() {
-  window.open(sjx, '_blank');
-});
-document.getElementById("zt").addEventListener("click", function() {
-  window.open(ztx, '_blank');
-});
-document.getElementById("t1").addEventListener("click", function() {
-  window.open(t1x, '_blank');
-});
-document.getElementById("st").addEventListener("click", function() {
-  window.open(stx, '_blank');
-});
-document.getElementById("yw28").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxNyZ0b3BsZD02ODUxNzcxMDgwMzY4Nzgw"), '_blank');
-});
-document.getElementById("wc28").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly9pemN2b2ouaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEyJnRvcGxkPTYxNjE3NzEwODAxNDAxNjc="), '_blank');
-});
-document.getElementById("jl").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MjMyMTEmc2VsZlBsYW5JZD04NDU="), '_blank');
-});
-document.getElementById("xy").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=="), '_blank');
-});
-document.getElementById("c7").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q="), '_blank');
-});
-document.getElementById("ng").addEventListener("click", function() {
-  window.open(atob("aHR0cHM6Ly8xMDMuNTQuNjAuMjI6ODg2Ni8jL2xpbms/YWxsd2luPWh4emM4Zm5sWmNFJTJCZ1RVcjBCUU13QSUzRCUzRA=="), '_blank');
-});
-window["document"]['getElementById']("hy")['addEventListener']("click", function () {
-    window['open'](atob("aHR0cHM6Ly9uY2djYS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDYyJnRvcElkPTEzNzMzJnNlbGZQbGFuSWQ9MTEzNw=="), '_blank')
-});
-window["document"]['getElementById']("gjr")['addEventListener']("click", function () {
-    window['open'](atob("aHR0cHM6Ly90ei53eGdqcjUuY2MvYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIzMDQmdG9wSWQ9MTY3MDIwNg=="), '_blank')
-});
-window["document"]['getElementById']("bsj")['addEventListener']("click", function () {
-    window['open'](atob("aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTQ2NzA4MA=="), '_blank')
-});
-window["document"]['getElementById']("bsjn")['innerHTML'] = ("保时捷");
-window["document"]['getElementById']("gjrn")['innerHTML'] = ("国际人");
-window["document"]['getElementById']("hyn")['innerHTML'] = ("汇赢国际");
-['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"100P111l99Y117c109v101V110J116W46m103F101a116q69U108i101v109P101V110B116i66c121f73f100b40h34O50F34m41F46i105F110u110c101U114J72P84E77r76D61U34Q55357Q56613b21313d24180Z20449e35465N24179x21488x25512V33616X34k59z10Z10B100I111o99G117i109H101R110l116D46q103O101F116d69O108I101P109p101E110a116u66C121Z73Q100y40u34v99r102d110U34w41n46D105G110i110e101c114O72I84R77B76h61M34J36229M20961Y22269I38469t34y59l10w10j100C111N99a117k109a101y110N116i46P103u101B116t69k108b101V109K101z110h116p66R121g73G100o40o34H120n115s100G110h34E41A46U105I110n110C101E114W72G84k77b76J61l34K26032U26102c20195z34v59d10s10r100f111b99j117K109a101T110T116B46u103Q101a116l69p108T101H109T101v110U116X66l121w73Z100B40s34E115h106V110I34g41P46e105U110z110b101p114r72D84P77j76D61C34Q36175B37329t22269x38469w34x59f10F10P100i111j99C117D109f101m110i116U46x103H101z116l69J108b101Q109R101e110i116q66Z121z73F100G40h34K119S100S110g34m41J46q105b110m110u101c114o72k84z77C76k61r34V38382c40718S23089r20048D34j59f10m10d100M111K99C117E109L101O110Y116B46P103G101o116M69j108a101E109p101z110N116u66R121S73Q100W40R34P100Q102n110n34c41d46U105p110O110f101u114k72A84P77M76j61r34n24005E23792f22269t38469M34t59N10I10S100Q111H99r117v109g101T110y116p46d103L101u116f69U108n101v109Y101G110X116H66p121D73j100z40u34J121Z104c110c34g41S46K105t110R110L101c114E72i84D77Q76b61h34M19968b21495u23089V20048x34D59s10d10d100E111R99V117F109k101t110u116L46X103m101l116S69N108k101g109S101w110s116m66U121q73O100f40v34B110o103N116h121Q110O34h41O46p105B110m110B101i114j72M84q77r76m61h34k78b71X20307o32946m34c59I10V10i100p111j99h117l109o101H110P116f46D103Y101R116u69m108L101R109N101a110U116m66h121U73k100x40X34i122w116r110r34e41b46x105M110Y110T101h114y72S84D77L76I61p34g24449y36884Q22269D38469e34a59J10q10m100f111W99a117E109K101s110m116J46q103F101x116m69z108h101k109e101K110H116Y66V121u73v100c40u34e102j102p110w34V41v46W105I110N110n101V114e72I84v77W76B61G34i38750P20961P23089y20048Y34E59n10n10l100j111B99J117v109U101R110Q116W46X103Y101H116L69q108B101y109R101F110l116y66f121l73R100g40w34q116f49a110v34V41J46w105D110n110l101V114K72P84j77D76u61q34k84w111h112s49R20307w32946b34m59o10v10H100X111n99i117y109p101w110n116K46s103x101d116g69k108i101y109x101Q110D116i66H121g73p100q40I34W115s116I110B34G41t46x105y110k110z101F114E72S84Z77R76M61G34n32988C22825P22269N38469H34K59"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
-document.getElementById("yw28n").innerHTML="亿万28";
-document.getElementById("wc28n").innerHTML="旺财28";
-document.getElementById("jln").innerHTML="君临国际";
-document.getElementById("xyn").innerHTML="星耀国际";
-document.getElementById("ngn").innerHTML="NG国际";
-document.getElementById("c7n").innerHTML="C7";
+    var container = document.getElementById('xapes');
+    if (!container) return;
 
-document.getElementById("1").innerHTML="XA77.MY";
+    secretApps.forEach(function(app) {
+        // 1. 创建元素
+        var li = document.createElement('li');
+        li.className = 'app-item'; // 只保留类名用于样式
+
+        li.innerHTML = `
+            <div class="app-icon"><img src="${app.img}"></div>
+            <div class="app-name">${app.name}</div>
+        `;
+
+        li.onclick = function() {
+            try {
+                // 解码并跳转
+                var targetUrl = atob(app.xurl.trim());
+                window.open(targetUrl, '_blank');
+            } catch (e) {
+                console.error("解码失败:", e);
+            }
+        };
+
+        // 4. 塞进容器
+        container.appendChild(li);
+    });
+})();
+
+window["document"]['getElementById']("3")['innerHTML'] = ("2026世界杯<br>点击查看赛程");
+window["document"]['getElementById']("2")['innerHTML'] = ("🔥十年信誉平台<br>⚽世界杯官方投注平台");
+window["document"]['getElementById']("1")['innerHTML'] = "XA77.MY";
+
+
+function showPopupOnce(popupId = 'sw_loaded') {
+  const key = `popup_${popupId}_shown`;
+  
+  if (localStorage.getItem(key)) {
+    return; 
+  }
+  alert('欢迎访问XA77！');
+  localStorage.setItem(key, Date.now().toString());
+}
+window.addEventListener('load', function() {
+  showPopupOnce();
+});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      console.log('SW registered');
+    });
+}
