@@ -16,7 +16,7 @@
 {img: './png/sjgj.png', name: '赏金国际', xurl: 'aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU='},
 {img: './png/yw28.jpg', name: '亿万28', xurl: 'aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxNyZ0b3BsZD02ODUxNzcxMDgwMzY4Nzgw'},
 {img: './png/wc28.jpg', name: '旺财28', xurl: 'aHR0cHM6Ly9pemN2b2ouaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEyJnRvcGxkPTYxNjE3NzEwODAxNDAxNjc='},
-//{img: './png/dtgj.jpg', name: '鼎天国际', xurl: '123'},
+{img: './png/dtgj.jpg', name: '鼎天国际', xurl: 'aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNjMmcHQ9QzQxNzdFMDYtM0JGOS1CM0MwLUE0NkEtQkEyMDM0MzY0MzlC'},
 {img: './png/xygj.jpg', name: '星耀国际', xurl: 'aHR0cHM6Ly9nZWR4cy5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTcmdG9wSWQ9NDM1MTc3MTA3MDAyMzc3Ng=='},
 {img: './png/ng.png', name: 'NG国际', xurl: 'aHR0cHM6Ly8xMDMuNTQuNjAuMjI6ODg2Ni8jL2xpbms/YWxsd2luPWh4emM4Zm5sWmNFJTJCZ1RVcjBCUU13QSUzRCUzRA=='},
 {img: './png/c7.png', name: 'C7', xurl: 'aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q='}
