@@ -23,7 +23,7 @@ const apps = [
 {id: 'dkd', img: './png/dkd.png', name: '杜卡迪vpn', url: 'https://www.dukadi.xyz/#/register?code=ZrNq0rDZ', cat: 'tools'},
 {id: 'dm', img: './png/vpn.png', name: '大麦VPN', url: 'https://666.damai222.cc/#/register?code=JGQT6iHz', cat: 'tools'},
 {id: 'jryw', img: './png/nullb.png', name: '今日要闻', url: 'https://60s.lylme.com/', cat: 'tools'},
-{id: 'hwid', img: './svg/id.svg', name: '海外ID', url: 'https://id.ali-door.top/share/damai', cat: 'tools'},
+{id: 'hwid', img: './svg/id.svg', name: '海外ID', url: 'https://id.ali-door.top/share/damaiye', cat: 'tools'},
 {id: 'rjdq', img: './png/rjdq.png', name: '软件大全', url: 'https://52qfx.lanzouw.com/b01jdki3a', cat: 'tools'},
 {id: 'dxjm', img: './svg/dxjm.svg', name: '短信接码', url: 'http://www.eomsg.com/appweb/signUp.html?inviter=1o0je3kd', cat: 'tools'},
 {id: 'htyw', img: './png/nullb.png', name: '花体英文', url: 'https://1000tool.com/text/penmanship/', cat: 'tools'},
